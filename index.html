@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8" />
+		<title>Cifra ou Decifra</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<h1>Cifra ou Decifra</h1>
+
+		<main>
+			<section>
+				<textarea
+					id="entrada"
+					cols="30"
+					rows="10"
+					placeholder="Não aceita letras maiúsculas e nem caracteres especiais"
+				></textarea>
+				<div class="btns">
+					<button onclick="criptografar()">Criptografar</button>
+					<button onclick="descriptografar()">Descriptografar</button>
+				</div>
+			</section>
+
+			<section>
+				<textarea id="saida" cols="30" rows="10"></textarea>
+				<button onclick="copiarTexto()">Copiar</button>
+			</section>
+		</main>
+		<footer>
+			<p>by Glaucia Monari</p>
+		</footer>
+		<script type="text/javascript" defer src="script.js"></script>
+	</body>
+</html>
